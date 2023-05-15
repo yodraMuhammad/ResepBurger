@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+
 export default defineNuxtConfig({
     css: ['~/assets/css/main.css'],
     postcss: {
@@ -15,4 +17,5 @@ export default defineNuxtConfig({
           script: [{ src: 'https://unpkg.com/aos@2.3.1/dist/aos.js' }],
         },
       },
+    modules: ['nuxt-swiper'],
 })

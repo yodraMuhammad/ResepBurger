@@ -26,3 +26,18 @@ body{
 .hamburger-active > span:nth-child(3) {
     @apply -rotate-45;
 }
+
+.card {
+    transform: scale(1);
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gambar{
+    height: 300px;
+    /* width: 100%; */
+}
