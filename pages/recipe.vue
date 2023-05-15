@@ -11,7 +11,7 @@
   <section id="card" class="mb-30 pb-35">
     <div class="container">
       <div class="flex flex-wrap">
-        <div class="w-full self-center px-4 lg:w-1/4 mb-10">
+        <div class="w-full px-4 lg:w-1/4 mb-10">
                     <nuxt-link to="/detail">
                         <card class="card" title="Burger Daging Sapi"
                             description="Burger daging sapi adalah jenis burger yang terbuat dari daging sapi giling yang dicetak dan dipanggang hingga matang."
