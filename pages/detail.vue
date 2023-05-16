@@ -1,6 +1,6 @@
 <template>
     <!-- Hero section -->
-    <section id="home" class="pt-36 md:mb-10">
+    <section id="home" class="pt-36 mb-10 ">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full self-end px-4 lg:w-1/2 md:mt-auto mb-10">
@@ -28,7 +28,6 @@
               class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Video
               Tutorial</a>
           </div>
-          
         </div>
       </div>
     </section>
@@ -36,7 +35,7 @@
 
 
     <!-- ingredients section -->
-    <section id="ingredients" class="pt-36 pb-32">
+    <section id="ingredients" class="ml-5 lg:pt-10 md:pt-10  pb-32">
       <div class="container">
         <h4 class="font-bold uppercase text-primary text-lg mb-3">ingredients</h4>
         <div class="flex flex-wrap">

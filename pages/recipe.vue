@@ -7,38 +7,34 @@
     </section>
     <!-- Hero section end -->
 
-  <!-- card -->
-  <section id="card" class="mb-30 pb-35">
-    <div class="container">
-      <div class="flex flex-wrap">
-        <div class="w-full px-4 lg:w-1/4 mb-10">
+    <!-- card -->
+    <section id="card" class="mb-30 pb-35">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2 sm:w-1/1 mb-10">
                     <nuxt-link to="/detail">
-                        <card class="card" title="Burger Daging Sapi"
-                            :star="5"
+                        <card class="card" title="Burger Daging Sapi" :star="5"
                             description="Burger daging sapi adalah jenis burger yang terbuat dari daging sapi giling yang dicetak dan dipanggang hingga matang."
                             image="burger1.jpeg" />
                     </nuxt-link>
                 </div>
-                <div class="w-full px-4 lg:w-1/4 mb-10">
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2 sm:w-1/1 mb-10">
                     <nuxt-link to="/detail">
-                        <card class="card" title="Beyond burger"
-                            :star="5"
+                        <card class="card" title="Beyond burger" :star="5"
                             description="Burger dengan patty dan bahan tambahan yang lebih mewah dan biasanya lebih mahal daripada burger biasa."
                             image="burger2.jpg" />
                     </nuxt-link>
                 </div>
-                <div class="w-full px-4 lg:w-1/4 mb-10">
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2 sm:w-1/1 mb-10">
                     <nuxt-link to="/detail">
-                        <card class="card" title="Chicken burger"
-                            :star="5"
+                        <card class="card" title="Chicken burger" :star="5"
                             description="Burger yang terbuat dari patty ayam yang diiris tipis dan diisi dengan sayuran, saus, dan bahan tambahan lainnya."
                             image="burger3.jpg" />
                     </nuxt-link>
                 </div>
-                <div class="w-full px-4 lg:w-1/4 mb-10">
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2 sm:w-1/1 mb-10">
                     <nuxt-link to="/detail">
-                        <card class="card" title="Veggie burger"
-                            :star="4"
+                        <card class="card" title="Veggie burger" :star="4"
                             description=" Burger yang terbuat dari bahan-bahan vegetarian seperti kacang-kacangan, sayuran, dan rempah-rempah, dan diisi dengan sayuran, keju, dan saus."
                             image="burger4.jpg" />
                     </nuxt-link>
