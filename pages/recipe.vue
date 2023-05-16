@@ -7,11 +7,11 @@
     </section>
     <!-- Hero section end -->
 
-    <!-- card -->
-    <section id="card" class="mb-30 pb-35">
-        <div class="container">
-            <div class="flex flex-wrap">
-                <div class="w-full self-center px-4 lg:w-1/4 mb-10">
+  <!-- card -->
+  <section id="card" class="mb-30 pb-35">
+    <div class="container">
+      <div class="flex flex-wrap">
+        <div class="w-full px-4 lg:w-1/4 mb-10">
                     <nuxt-link to="/detail">
                         <card class="card" title="Burger Daging Sapi"
                             :star="5"
@@ -59,7 +59,6 @@ export default {
 </script>
 
 <script setup>
-// import { definePageMeta } from "nuxt/dist/pages/runtime";
 
 definePageMeta({
     layouts: "default",
