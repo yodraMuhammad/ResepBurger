@@ -1,8 +1,4 @@
 <template>
-    <!-- Navbar -->
-    
-    <!-- Navbar end -->
-  
     <!-- Hero section -->
     <section id="home" class="pt-36 md:mb-10">
       <div class="container">
@@ -159,8 +155,6 @@ export default {
 </script>
 
 <script setup>
-  // import { definePageMeta } from "nuxt/dist/pages/runtime";
- 
     definePageMeta({
       layouts: 'default',
     })

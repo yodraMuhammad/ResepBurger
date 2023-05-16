@@ -34,29 +34,33 @@
                 <div class="w-full self-center px-4 lg:w-1/4 mb-10">
                     <nuxt-link to="/detail">
                         <card class="card" title="Burger Daging Sapi"
+                            :star="5"
                             description="Burger daging sapi adalah jenis burger yang terbuat dari daging sapi giling yang dicetak dan dipanggang hingga matang."
-                            image="https://awsimages.detik.net.id/community/media/visual/2022/11/24/resep-mini-cheese-burger_43.jpeg?w=700&q=90" />
+                            image="burger1.jpeg" />
                     </nuxt-link>
                 </div>
                 <div class="w-full px-4 lg:w-1/4 mb-10">
                     <nuxt-link to="/detail">
                         <card class="card" title="Beyond burger"
+                            :star="5"
                             description="Burger dengan patty dan bahan tambahan yang lebih mewah dan biasanya lebih mahal daripada burger biasa."
-                            image="https://asset.kompas.com/crops/fP_Q5TD9BOn5G5JTnntgtDIjQMI=/53x36:933x623/750x500/data/photo/2021/10/21/6171492e1ea12.jpg" />
+                            image="burger2.jpg" />
                     </nuxt-link>
                 </div>
                 <div class="w-full px-4 lg:w-1/4 mb-10">
                     <nuxt-link to="/detail">
                         <card class="card" title="Chicken burger"
+                            :star="5"
                             description="Burger yang terbuat dari patty ayam yang diiris tipis dan diisi dengan sayuran, saus, dan bahan tambahan lainnya."
-                            image="https://img.kurio.network/-ltYsFALO68mNha9xrka0B9fJAs=/1200x900/filters:quality(80)/https://kurio-img.kurioapps.com/20/07/01/f3f1874f-775f-4880-9821-2ea0756aba6a.jpg" />
+                            image="burger3.jpg" />
                     </nuxt-link>
                 </div>
                 <div class="w-full px-4 lg:w-1/4 mb-10">
                     <nuxt-link to="/detail">
                         <card class="card" title="Veggie burger"
+                            :star="4"
                             description=" Burger yang terbuat dari bahan-bahan vegetarian seperti kacang-kacangan, sayuran, dan rempah-rempah, dan diisi dengan sayuran, keju, dan saus."
-                            image="https://www.masakapahariini.com/wp-content/uploads/2018/09/shutterstock_1187496061-780x440.jpg" />
+                            image="burger4.jpg" />
                     </nuxt-link>
                 </div>
             </div>
@@ -76,7 +80,6 @@ export default {
 </script>
 
 <script setup>
-// import { definePageMeta } from "nuxt/dist/pages/runtime";
 
 definePageMeta({
     layouts: 'default',
