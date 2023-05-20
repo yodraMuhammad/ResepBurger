@@ -78,3 +78,49 @@
         <!-- End Footer  -->
     </div>
 </template>
+
+<script setup>
+
+definePageMeta({
+    layouts: "default",
+});
+
+onMounted(() => {
+    // navber fixed
+    window.onscroll = function () {
+        const header = document.querySelector("header");
+        const fixedNav = header.offsetTop;
+
+        if (window.pageYOffset > fixedNav) {
+            header.classList.add("navbar-fixed");
+        } else {
+            header.classList.remove("navbar-fixed");
+        }
+    };
+
+    // Hamburger
+    const hamburger = document.querySelector("#hamburger");
+    const navMenu = document.querySelector("#nav-menu");
+
+    hamburger.addEventListener("click", function () {
+        hamburger.classList.toggle("hamburger-active");
+        navMenu.classList.toggle("hidden");
+    });
+
+    var counterContainer = document.querySelector("#website-counter");
+    // var resetButton = document.querySelector("#reset");
+    var visitCount = localStorage.getItem("page_view");
+
+    // Periksa apakah entri page_view ada
+    if (visitCount) {
+        visitCount = Number(visitCount) + 1;
+        localStorage.setItem("page_view", visitCount);
+    } else {
+        visitCount = 1;
+        localStorage.setItem("page_view", 1);
+    }
+    counterContainer.innerHTML = visitCount;
+});
+</script>
+  
+  
